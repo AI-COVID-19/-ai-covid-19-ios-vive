@@ -9,7 +9,7 @@ It is a project developed by the organization Ai Covid 19. An organization that 
 
 ## Technical description
 
-Open source application written in kotlin on Amazon AWS. 
+Open source iphone application written in swift on Amazon AWS. 
 
 This version include keys for API access for a development enviroment for easy test, but you cannot used them for production. 
 
