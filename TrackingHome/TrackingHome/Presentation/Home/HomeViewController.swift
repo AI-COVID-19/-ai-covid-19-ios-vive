@@ -8,9 +8,9 @@
 
 import UIKit
 
-class SummaryViewController: UIViewController {
+class HomeViewController: UIViewController {
     
-    var viewModel = SummaryViewModel()
+    var viewModel = HomeViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
