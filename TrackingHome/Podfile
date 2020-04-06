@@ -9,6 +9,14 @@ target 'TrackingHome' do
   pod 'R.swift'
   pod 'RealmSwift'
   
+  pod 'AWSMobileClient', '~> 2.12.2'
+  pod 'amplify-tools'
+  pod 'Amplify'
+  pod 'AWSPluginsCore'
+  pod 'AmplifyPlugins/AWSAPIPlugin'
+  pod 'PhoneNumberKit', '~> 3.1'
+  pod 'AwsUserPoolSignIn'
+  
   target 'TrackingHomeTests' do
     inherit! :search_paths
     # Pods for testing

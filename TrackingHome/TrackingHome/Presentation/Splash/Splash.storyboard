@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hBJ-hC-Hug">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="VTB-HX-98u">
+            <objects>
+                <viewController id="hBJ-hC-Hug" customClass="SplashViewController" customModule="TrackingHome" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DYD-IR-JJn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Splash Login validation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEQ-80-gK1">
+                                <rect key="frame" x="119" y="266" width="176" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="iP7-gV-HyW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DJx-0T-voj"/>
+                    <connections>
+                        <segue destination="b8m-mx-NRD" kind="show" identifier="redirectToLogin" id="4ne-vP-WzT"/>
+                        <segue destination="bhM-AT-0ZO" kind="showDetail" identifier="redirectToMain" id="DuJ-TX-sC8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUu-F7-vRt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="955.07246376811599" y="124.55357142857142"/>
+        </scene>
+        <!--Auth-->
+        <scene sceneID="u50-LD-WxZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Auth" id="b8m-mx-NRD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mNs-id-h91"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YgU-BQ-D8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692.0289855072465" y="-78.348214285714278"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="YAP-be-ngz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="bhM-AT-0ZO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="LBp-gG-WMc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3v3-h8-0OF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726.0869565217392" y="283.92857142857139"/>
+        </scene>
+    </scenes>
+</document>
